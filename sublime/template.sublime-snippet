@@ -1,0 +1,25 @@
+<snippet>
+	<content>
+<![CDATA[
+import java.io.*;
+import java.util.*;
+public class ${1:CP} { 
+	public static void main(String[] args) {
+		java.io.BufferedReader br = new java.io.BufferedReader(new java.io.InputStreamReader(System.in));
+		StringBuilder out = new StringBuilder();
+		int tc = Integer.parseInt(br.readLine());
+		String[] tokens = null;
+		String input = null;
+		while (tc-- > 0) {
+			String ans = "";
+			out.append(ans).append('\n');
+		}
+		System.out.print(out);
+	}
+}]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>template</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>
