@@ -1,0 +1,18 @@
+<snippet>
+	<content>
+<![CDATA[
+java.io.BufferedReader ${1:fileReader} = new java.io.BufferedReader(new java.io.FileReader(${2:"fileName"}));
+// read file until EOF
+String input = null;
+while (true) {
+	input = ${1:fileReader}.readLine();
+	if (input == null || input.equals("")) break;
+	System.out.println(input);
+}
+]]>
+	</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>readFile</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>
