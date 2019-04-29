@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-java.io.BufferedReader br = new java.io.BufferedReader(${1:new java.ioInputStreamReader(System.in)});
+java.io.BufferedReader br = new java.io.BufferedReader(${1:new java.io.InputStreamReader(System.in)});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>input</tabTrigger>
