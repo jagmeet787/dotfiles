@@ -9,6 +9,7 @@ while (true) {
 	if (input == null || input.equals("")) break;
 	System.out.println(input);
 }
+${1:fileReader}.close();
 ]]>
 	</content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
