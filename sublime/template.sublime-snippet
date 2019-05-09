@@ -3,7 +3,12 @@
 <![CDATA[
 import java.io.*;
 import java.util.*;
-public class ${1:CP} { 
+public class ${1:CP} {
+	
+	public static final int MOD = 1000_000_000 + 7;
+	public static final double EPS = 1e-6;
+	public static final boolean DEBUG = true;
+
 	public static void main(String[] args) throws java.io.IOException {
 		final java.io.BufferedReader br = new java.io.BufferedReader(new java.io.InputStreamReader(System.in));
 		final StringBuilder out = new StringBuilder();
