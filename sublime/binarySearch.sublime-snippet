@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+public static int binarySearch(int[] arr, int key) {
+	int start = 0, end = n - 1, mid = (start + end) >>> 1;
+
+	while (start <= end) {
+	    mid = (start + end) >>> 1;
+	    
+	    if (arr[mid] == key)
+	        return mid;
+	    
+	    if (key < arr[mid]) {
+	        end = mid - 1;
+	    } else {
+	        start = mid + 1;
+	    }
+	}
+	return -(start+1);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>binarySearch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>
