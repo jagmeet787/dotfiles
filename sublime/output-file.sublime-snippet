@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+java.io.PrintStream outStream = new java.io.PrintStream(${1:"fileName"});
+System.setOut(outStream);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>output</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>
